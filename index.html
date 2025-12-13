@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O!Sec ソーラーWi-Fi プロ | 建設現場・土木の業務用Wi-Fi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .bg-hero {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        /* 画像の角丸とシャドウ */
+        .img-card {
+            @apply rounded-xl shadow-lg border border-slate-200 overflow-hidden;
+        }
+        .img-card img {
+            @apply w-full h-48 object-cover transition duration-500 hover:scale-105;
+        }
+        /* フォーム入力欄のスタイル */
+        .form-input {
+            @apply w-full bg-gray-50 border border-gray-300 rounded p-3 focus:outline-none focus:border-blue-500 ring-1 ring-gray-200 transition;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800">
+
+    <header class="fixed w-full top-0 z-50 bg-slate-900/95 text-white shadow-lg backdrop-blur-sm">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="./image_8.png" alt="株式会社 沖縄電子" class="h-12 md:h-14 w-auto">
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="hidden md:block text-right">
+                    <p class="text-xs text-orange-400 font-bold animate-pulse">全国送料弊社負担！</p>
+                    <p class="text-lg font-bold"><a href="tel:098-898-2358">098-898-2358</a></p>
+                </div>
+                <a href="#contact" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-5 rounded shadow-lg transition transform hover:scale-105">
+                    <i class="fas fa-envelope mr-1"></i> お見積り
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-20 md:pt-40 md:pb-32 bg-hero text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-10">
+                <div class="w-full md:w-3/5 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-1 font-bold text-sm rounded-full mb-2 border border-red-400 shadow-glow">
+                        <i class="fas fa-truck"></i> 日本全国 送料無料キャンペーン中
+                    </div>
+                    <h1 class="text-4xl md:text-6xl font-black leading-tight tracking-tight">
+                        電源も、光回線も<br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-300">ここにはない。</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl font-bold text-blue-100">
+                        それでも「業務用Wi-Fi」は、<br class="md:hidden">即日使える。
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        建設・土木現場の「ネットがない」を解決。<br>
+                        沖縄電子が開発した、完全配線レスのソーラーWi-Fiソリューション。
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <div class="bg-white/10 backdrop-blur px-4 py-2 rounded border border-white/20 text-sm font-bold">
+                            <i class="fas fa-wifi text-blue-400 mr-2"></i>Wi-Fi 6対応
+                        </div>
+                        <div class="bg-white/10 backdrop-blur px-4 py-2 rounded border border-white/20 text-sm font-bold">
+                            <i class="fas fa-lock text-green-400 mr-2"></i>VPN接続
+                        </div>
+                        <div class="bg-white/10 backdrop-blur px-4 py-2 rounded border border-white/20 text-sm font-bold">
+                            <i class="fas fa-bolt text-yellow-400 mr-2"></i>完全電源不要
+                        </div>
+                    </div>
+
+                    <div class="pt-6">
+                        <a href="#contact" class="inline-block w-full md:w-auto text-center bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white text-xl font-bold py-4 px-10 rounded-lg shadow-2xl transition transform hover:-translate-y-1">
+                            今すぐ見積もり依頼する <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <p class="text-xs text-gray-400 mt-2 text-center md:text-left">※全国対応 / インボイス対応</p>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-2/5 flex justify-center relative">
+                    <div class="relative z-10 w-full bg-white p-2 rounded-2xl shadow-2xl rotate-1 hover:rotate-0 transition duration-500">
+                        <img src="./image_2.png" alt="O!Sec ソーラーWi-Fi プロ 製品全体" class="w-full h-auto rounded-xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-12">
+                    <span class="text-orange-600 font-bold tracking-widest text-sm">DEVELOPMENT STORY</span>
+                    <h2 class="text-3xl md:text-4xl font-black mt-2 mb-6">なぜ、沖縄電子が<br>これを作らなければならなかったのか。</h2>
+                    <div class="w-20 h-1 bg-blue-900 mx-auto"></div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-10 items-center">
+                    <div class="w-full md:w-1/2">
+                         <div class="img-card h-full">
+                            <img src="./image_5.png" alt="広大な建設現場での利用イメージ" class="h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 space-y-6 text-lg leading-relaxed text-gray-700">
+                        <p>
+                            「光回線が来ない」「電源がない」「台風で壊れる」<br>
+                            沖縄の建設現場から寄せられた、切実な声。
+                        </p>
+                        <p>
+                            創業50年、地元のインフラを支えてきた私たちは、既存の機器ではこの過酷な環境に対応できないと痛感しました。
+                        </p>
+                        <p class="font-bold text-orange-600 text-xl">
+                            「ないなら、我々が作るしかない。」
+                        </p>
+                        <p>
+                            技術の粋を集め、<span class="bg-yellow-200 px-1 font-bold">「完全電源不要」「防水防塵」「業務用スペック」</span>を兼ね備えた、最強の現場用Wi-Fiを独自開発。それが『O!Sec』です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-black text-center text-slate-900 mb-4">プロが選ぶ<span class="text-orange-600">3つの決定的な違い</span></h2>
+            <p class="text-center text-gray-600 mb-16">家庭用ルーターとは、中身も外身も別物です。</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+                    <div class="img-card rounded-b-none shadow-none border-0">
+                        <img src="./image_7.png" alt="業務用ルーターとアンテナ" class="h-56 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 flex items-center"><i class="fas fa-server text-blue-600 mr-2"></i>業務用ルーター & Wi-Fi 6</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            心臓部には、エンタープライズ向けの高性能ルーター（ER706W-4G同等品）を採用。最新規格 <span class="font-bold">Wi-Fi 6</span> 対応。多数のタブレットや防犯カメラを同時接続しても速度が落ちない、圧倒的な処理能力を誇ります。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+                    <div class="img-card rounded-b-none shadow-none border-0">
+                        <img src="./image_4.png" alt="悪天候でも稼働する様子" class="h-56 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 flex items-center"><i class="fas fa-cloud-sun text-orange-600 mr-2"></i>無日照でも3日間稼働</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            <span class="font-bold">無日照時でも3日は稼働可能な設計</span>になっています。意外と沖縄は日照時間が短く、<span class="font-bold">約4時間</span>で設計・計算しているため、曇りや雨が続いても安心です。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition">
+                    <div class="img-card rounded-b-none shadow-none border-0">
+                        <img src="./image_6.png" alt="簡単な設置作業の様子" class="h-56">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 flex items-center"><i class="fas fa-shield-alt text-green-600 mr-2"></i>沖縄基準のタフネス＆簡単設置</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            強烈な紫外線や雨から守る<span class="font-bold">高耐候性ボックス</span>を採用。設置はポールにバンドで固定するだけ。専門工事は不要です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-blue-900 bg-opacity-5">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border-t-8 border-blue-600">
+                <div class="p-8 md:p-12">
+                    <div class="text-center mb-10">
+                        <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">全国対応・お見積り依頼</h2>
+                        <p class="text-gray-600 mb-4">
+                            まずは在庫状況と納期をご確認ください。<br>
+                            導入前のご相談もZoomや電話で承っております。
+                        </p>
+                        <p class="text-2xl font-bold text-blue-800">
+                            お電話：<a href="tel:098-898-2358">098-898-2358</a> <span class="text-sm font-normal text-gray-500">(平日9:00-17:30)</span>
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+                        <div class="bg-orange-50 rounded-2xl p-6 border border-orange-200 relative overflow-hidden">
+                            <div class="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold px-4 py-1 rounded-bl-lg">キャンペーン中</div>
+                            <div class="text-center mb-6">
+                                <h3 class="text-xl font-bold text-slate-800 mt-4">買い切りスターターセット</h3>
+                                <p class="text-sm text-gray-500 mt-1">資産として長く使うなら断然お得</p>
+                            </div>
+                            <div class="text-center">
+                                <span class="text-sm text-gray-400 line-through">通常 248,000円</span>
+                                <div class="text-4xl font-black text-red-600 leading-none">198,000<span class="text-lg text-slate-700">円(税抜)</span></div>
+                                <p class="text-xs text-gray-500 mt-2">※月額通信費 5,500円(税込)</p>
+                            </div>
+                            <ul class="mt-6 space-y-2 text-sm text-slate-700 bg-white p-4 rounded-xl">
+                                <li class="flex items-center"><i class="fas fa-check-circle text-orange-500 mr-2"></i> 全国送料無料</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-orange-500 mr-2"></i> 設定済み・最短納品</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-orange-500 mr-2"></i> 少額減価償却対応</li>
+                            </ul>
+                        </div>
+
+                        <form class="space-y-4" action="https://formspree.io/f/xkgdyrey" method="POST">
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-1">会社名 / 屋号 <span class="text-red-500">*</span></label>
+                                <input type="text" name="会社名" class="form-input" placeholder="例：〇〇建設 株式会社" required>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-bold text-gray-700 mb-1">担当者名 <span class="text-red-500">*</span></label>
+                                    <input type="text" name="担当者名" class="form-input" required>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-bold text-gray-700 mb-1">都道府県 <span class="text-red-500">*</span></label>
+                                    <select name="都道府県" class="form-input">
+                                        <option value="">選択してください</option>
+                                        <option value="北海道">北海道</option>
+                                        <option value="東京都">東京都</option>
+                                        <option value="大阪府">大阪府</option>
+                                        <option value="沖縄県">沖縄県</option>
+                                        <option value="その他">その他</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-1">電話番号 <span class="text-red-500">*</span></label>
+                                <input type="tel" name="電話番号" class="form-input" placeholder="090-1234-5678" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-1">メールアドレス <span class="text-red-500">*</span></label>
+                                <input type="email" name="email" class="form-input" placeholder="info@example.co.jp" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-1">ご相談内容</label>
+                                <textarea name="ご相談内容" class="form-input h-24" placeholder="「現場に電気がなくて困っている」「〇台まとめて見積もりが欲しい」など"></textarea>
+                            </div>
+                            
+                            <input type="hidden" name="_language" value="ja">
+                            
+                            <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold text-lg py-4 rounded-lg shadow-lg transition duration-300 transform hover:-translate-y-1">
+                                見積もりを依頼する（送信）
+                            </button>
+                            <p class="text-xs text-center text-gray-500">※確認画面は表示されず、そのまま送信されます。</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-black text-white mb-2 hover:text-blue-400 transition">
+                <a href="https://okinawadenshi.co.jp/company/" target="_blank" rel="noopener noreferrer">
+                    株式会社 沖縄電子 <i class="fas fa-external-link-alt text-sm ml-1"></i>
+                </a>
+            </h3>
+            <p class="text-sm mb-4">創業50年。通信とセキュリティのプロフェッショナル。</p>
+            <p class="text-lg font-bold text-white mb-6">
+                お問い合わせ：<a href="tel:098-898-2358">098-898-2358</a>
+            </p>
+            <div class="flex justify-center gap-6 mb-8 text-2xl">
+                <a href="#" class="hover:text-white transition"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                <a href="https://okinawadenshi.co.jp/" target="_blank" class="hover:text-white transition"><i class="fas fa-globe"></i></a>
+            </div>
+            <p class="text-xs">&copy; 2025 Okinawa Denshi Co.,Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
